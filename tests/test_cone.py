@@ -1,4 +1,5 @@
 import pytest
+import math
 from geometry.cone import volume_cone
 
 
@@ -25,6 +26,7 @@ def test_volume_cone_float_tolerance():
     Test volume computation using approximate comparison.
     """
     base_radius, height = 1.2, 2.5
-    expected = 3.7699111843077517
+    expected = (1 / 3) * math.pi * base_radius**2 * height
     assert volume_cone(base_radius, height) == pytest.approx(expected, rel=1e-6)
+
 

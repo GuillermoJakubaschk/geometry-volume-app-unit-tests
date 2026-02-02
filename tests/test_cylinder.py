@@ -1,4 +1,5 @@
 import pytest
+import math
 from geometry.cylinder import volume_cylinder
 
 
@@ -25,5 +26,6 @@ def test_volume_cylinder_float_tolerance():
     Test volume computation using approximate comparison.
     """
     radius, height = 1.5, 3.3
-    expected = 23.326325452904214
+    expected = math.pi * radius**2 * height
     assert volume_cylinder(radius, height) == pytest.approx(expected, rel=1e-6)
+
