@@ -1,6 +1,6 @@
 # Project description
 
-Este proyecto implementa el cálculo del volumen de distintas figuras geométricas en Python y valida su correcto funcionamiento con pruebas unitarias.
+Este proyecto tiene el cálculo del volumen de distintas figuras geométricas en Python y valida su correcto funcionamiento con pruebas unitarias.
 
 ---
 
@@ -14,8 +14,8 @@ En el proyecto se calculan las siguientes figuras geométricas:
 - Esfera  
 
 La carpeta `geometry` contiene los módulos encargados de calcular el volumen de todas las figuras.  
-La carpeta `tests` contiene las pruebas unitarias implementadas con `pytest`, las cuales nos permiten verificar el correcto funcionamiento de cada función.  
-El archivo `main.py` funciona como el punto de entrada del proyecto, ya que desde ahí se pueden ejecutar los distintos códigos que se encuentran dentro de la carpeta `geometry`.
+La carpeta `tests` contiene las pruebas unitarias que vienen con `pytest`, las cuales nos permiten verificar el correcto funcionamiento.  
+El archivo `main.py` funciona como si estuvieran todos los codigos juntos, ya que desde ahí se pueden ejecutar los distintos códigos que se encuentran dentro de la carpeta `geometry`.
 
 Cabe resaltar que se utiliza la librería `math`, la cual nos permite realizar cálculos matemáticos y aproximar mejores valores como el del π.
 
