@@ -13,7 +13,7 @@ En el proyecto se calculan las siguientes figuras geométricas:
 - Cilindro  
 - Esfera  
 
-La carpeta `geometry` contiene los módulos encargados de calcular el volumen de todas las figuras.  
+La carpeta `geometry` contiene los algoritmos encargados de calcular el volumen de todas las figuras.  
 La carpeta `tests` contiene las pruebas unitarias que vienen con `pytest`, las cuales nos permiten verificar el correcto funcionamiento.  
 El archivo `main.py` funciona como si estuvieran todos los codigos juntos, ya que desde ahí se pueden ejecutar los distintos códigos que se encuentran dentro de la carpeta `geometry`.
 
