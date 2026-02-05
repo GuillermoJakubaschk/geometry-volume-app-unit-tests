@@ -23,7 +23,7 @@ Cabe resaltar que se utiliza la librería `math`, la cual nos permite realizar c
 
 # How to run main.py
 
-Para ejecutar el main, uso el siguiente comando desde la PowerShell de Windows:
+Para ejecutar el main, uso el siguiente comando desde la PowerShell de Windows (Dentro de la carpeta: geometry-volume-app-unit-tests):
 
 ```bash
 python main.py
