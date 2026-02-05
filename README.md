@@ -49,4 +49,9 @@ Para poder instalarla, se escribe de la siguiente manera:
 ```bash
 pip install pytest
 ```
+ó 
+```bash
+pip install -r requirements.txt
+```
+
 Y con esto técnicamente debería funcionar sin problemas.
